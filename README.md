@@ -13,7 +13,7 @@ against this verifier.
 ## What's here
 
 - **`ClientAttestationVerifier`** — verifies the attestation + proof of possession end to end, for both
-  `attest_jwt_client_auth` (dedicated PoP JWT) and `attest_jwt_client_auth_dpop` (DPoP combined mode).
+  `attest_jwt_client_auth` with both draft-10 PoP methods: `attestation_pop_jwt` (dedicated PoP JWT) and `dpop_combined` (DPoP combined mode).
 - **`ClientAttestationConfig`** — the verification policy: accepted algorithms, clock skew / freshness
   windows, expected PoP audiences and DPoP `htm`/`htu`, and whether a challenge is required.
 - **`DpopProofValidator`** — RFC 9449 proof validation for combined mode.
