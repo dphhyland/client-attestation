@@ -1,6 +1,6 @@
 # client-attestation
 
-> **📦 Canonical home: [dphhyland/pf-agentic-identity](https://github.com/dphhyland/pf-agentic-identity)** — this code now lives (with history) at `modules/client-attestation` in the pf-agentic-identity monorepo. This repo stays live for existing links and consumers but receives **backports only** — please open issues and PRs against the monorepo.
+> **📦 Canonical home: [dphhyland/pf-agentic-identity](https://github.com/dphhyland/pf-agentic-identity)** — this code now lives (with history) at `libs/client-attestation` in the pf-agentic-identity monorepo. This repo stays live for existing links and consumers but receives **backports only** — please open issues and PRs against the monorepo.
 
 
 AS-side **OAuth Attestation-Based Client Authentication**
